@@ -4,7 +4,7 @@ import TodoList from './components/TodoList';
 import './App.css';
 
 // Base API URL pointing to the Express server
-const API_URL = 'http://localhost:5000/api/todos';
+const API_URL = process.env.REACT_APP_API_URL || 'https://react-nodejs-assignment-1.onrender.com/api/todos';
 
 function App() {
   // Main application state

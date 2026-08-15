@@ -24,7 +24,7 @@ let server;
 // Boot Server after DB is Ready
 initDb()
   .then(() => {
-    server = app.listen(PORT, () => {
+    server = app.listen(PORT, '0.0.0.0', () => {
       console.log(`Server running with modular SQLite architecture on http://localhost:${PORT}`);
     });
   })
