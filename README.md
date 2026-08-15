@@ -23,7 +23,7 @@ to-do-application/
 │   ├── server.js             # Main server logic & endpoints
 │   └── package.json          # Server dependencies & scripts
 │
-└── client/                   # React Frontend App (Vite)
+└── client/                   # React Frontend App 
     ├── src/
     │   ├── components/
     │   │   ├── AddTodo.jsx   # Form component for adding tasks & due dates
