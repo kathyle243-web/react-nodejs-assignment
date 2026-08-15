@@ -57,7 +57,7 @@ cd client
 npm install
 npm start
 ```
-Open your browser and navigate to the local URL shown in your terminal (typically http://localhost:5173).
+Your browser will open on http://localhost:3000.
 
 ## API Documentation
 - GET /api/todos — Fetch all to-do items.
